@@ -2,11 +2,11 @@
 The project from UCLL game jam from my team.
 The goal: to learn python. 
 Team consists of: 
-- lead-developer 
-- developer, communications manager
-- musician, developer
-- 2d designer
-- level designer, developer.
+- lead-developer https://www.linkedin.com/in/rostislav-dushnii-enter-alt/
+- developer, communications manager https://www.linkedin.com/in/sadra-dezdar-78432127b/
+- musician, developer https://www.linkedin.com/in/adam-benkhazzi-b219902b5/
+- 2d designer https://www.linkedin.com/in/dmitry-osipov-a001192b6/
+- level designer, developer https://www.linkedin.com/in/rahmet-kedir-2a2987257/
 
 The game was done in 3 days:
 - learning pygame and its workflow
