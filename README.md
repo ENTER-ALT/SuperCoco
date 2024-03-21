@@ -21,3 +21,5 @@ The game was done in 3 days:
 About the game: 
 It is a 2d platformer about Coconut that saves other coconuts from machetes
 To win the game you need to save all coconuts and try not to die
+
+run run_game.exe to start the game
