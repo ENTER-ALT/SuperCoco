@@ -1,7 +1,7 @@
-import utilities
+import src.utilities as utilities
 import pygame
-import game
-import UI.ui_renderer as ui
+import src.game as game
+import src.UI.ui_renderer as ui
 
 def render_main_menu(game):
     game.background = pygame.image.load('resources/mainmenu.png').convert_alpha()

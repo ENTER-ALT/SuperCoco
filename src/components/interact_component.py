@@ -1,4 +1,4 @@
-from components.interactive_component import InteractiveComponent
+from src.components.interactive_component import InteractiveComponent
 
 class InteractComponent:
     def __init__(self) -> None:

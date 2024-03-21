@@ -1,6 +1,6 @@
 import pygame
 
-from game_objects.scene_objects.scene_object import SceneObject
+from src.game_objects.scene_objects.scene_object import SceneObject
 
 
 class Tile(SceneObject):

@@ -1,5 +1,5 @@
-import levels.settings as settings
-import utilities
+import src.levels.settings as settings
+import src.utilities as utilities
 
 class CameraShifter:
     def __init__(self, created_objects: utilities.level_objects) -> None:

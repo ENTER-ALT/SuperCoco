@@ -1,5 +1,5 @@
-from components.interact_component import InteractComponent
-from components.interactive_component import InteractiveComponent
+from src.components.interact_component import InteractComponent
+from src.components.interactive_component import InteractiveComponent
 
 class InteractionDetectionHandler:
 	#Level class should init it and provide player and tiles

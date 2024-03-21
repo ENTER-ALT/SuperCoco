@@ -1,5 +1,5 @@
 import pygame
-import levels.settings as settings
+import src.levels.settings as settings
 
 green = (0, 255, 0)
 blue = (0, 0, 128)

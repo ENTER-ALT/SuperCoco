@@ -1,11 +1,11 @@
 import pygame
-import utilities
-import levels.settings as settings
-from components.shift_component import ShiftComponent
-from components.patrol_component import PatrolComponent
-from components.attack_component import AttackComponent
-from components.health_component import HealthComponent
-from components.character_animator import CharacterAnimator
+import src.utilities as utilities
+import src.levels.settings as settings
+from src.components.shift_component import ShiftComponent
+from src.components.patrol_component import PatrolComponent
+from src.components.attack_component import AttackComponent
+from src.components.health_component import HealthComponent
+from src.components.character_animator import CharacterAnimator
 import random
 
 class Enemy(pygame.sprite.Sprite, ShiftComponent, PatrolComponent, AttackComponent, HealthComponent, CharacterAnimator):

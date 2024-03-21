@@ -1,11 +1,11 @@
 import pygame
-import utilities
-from game_objects.scene_objects.cage import CoconutCage
-from game_objects.scene_objects.enemy_border import EnemyBorder
-from game_objects.scene_objects.tile import Tile
-from game_objects.player import Player
-from game_objects.enemy import Enemy
-import levels.settings as settings
+import src.utilities as utilities
+from src.game_objects.scene_objects.cage import CoconutCage
+from src.game_objects.scene_objects.enemy_border import EnemyBorder
+from src.game_objects.scene_objects.tile import Tile
+from src.game_objects.player import Player
+from src.game_objects.enemy import Enemy
+import src.levels.settings as settings
 
 TILES = 'tiles'
 CAGES = 'cages'

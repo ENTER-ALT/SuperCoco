@@ -1,7 +1,7 @@
 import pygame
-from game_objects.player import *
-import utilities
-from game_objects.scene_objects.cage import CoconutCage
+from src.game_objects.player import *
+import src.utilities as utilities
+from src.game_objects.scene_objects.cage import CoconutCage
 
 class CharacterAnimator:
     def __init__(self, animations: dict, animation_speed: float) ->None:

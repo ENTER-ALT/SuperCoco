@@ -10,7 +10,7 @@ level_objects = namedtuple("level_objects", ['tiles','player_list','cages','enem
 
 tile_info = namedtuple('tile_info',['spawn','num'])
 enemy_info = namedtuple('enemy_info',['spawn','num'])
-TEXT_FONT = pygame.font.Font("../resources/font/dynamo.otf", 60)
+TEXT_FONT = pygame.font.Font("resources/font/dynamo.otf", 60)
 
 TIME_COUNTING_SPEED = 0.1
 

@@ -1,9 +1,9 @@
 import pygame
-from utilities import TEXT_FONT
-from game import Game
-from game_objects.player import Player
-from handlers.game_progress_handler import GameProgressHandler
-from levels.settings import *
+from src.utilities import TEXT_FONT
+from src.game import Game
+from src.game_objects.player import Player
+from src.handlers.game_progress_handler import GameProgressHandler
+from src.levels.settings import *
 
 class UIRenderer:
 

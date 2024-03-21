@@ -1,16 +1,16 @@
-from handlers.collision_handler import CollisionHandler
-from handlers.interaction_detection_handler import InteractionDetectionHandler
-from handlers.win_condition_check_handler import WinConditionChecker
-from handlers.lose_condition_check_handler import LoseConditionChecker
-from systems.player.character_move_system import CharacterMoveSystem
-from systems.attack_collision_system import AttackCollisionSystem
-from systems.enemy.patrol_system import PatrolSystem
-from handlers.game_progress_handler import GameProgressHandler
-from handlers.enemy_collision_handler import EnemyCollisionHandler
-from handlers.cages_updater import CagesUpdater
-import sound_mixer as sounds
-import utilities
-import game
+from src.handlers.collision_handler import CollisionHandler
+from src.handlers.interaction_detection_handler import InteractionDetectionHandler
+from src.handlers.win_condition_check_handler import WinConditionChecker
+from src.handlers.lose_condition_check_handler import LoseConditionChecker
+from src.systems.player.character_move_system import CharacterMoveSystem
+from src.systems.attack_collision_system import AttackCollisionSystem
+from src.systems.enemy.patrol_system import PatrolSystem
+from src.handlers.game_progress_handler import GameProgressHandler
+from src.handlers.enemy_collision_handler import EnemyCollisionHandler
+from src.handlers.cages_updater import CagesUpdater
+import src.sound_mixer as sounds
+import src.utilities as utilities
+import src.game as game
 
 FPS = 60
 FRAME_TARGET_TIME = 1000/FPS

@@ -1,8 +1,8 @@
 import pygame
 
-from game_objects.scene_objects.scene_object import SceneObject
-from components.interactive_component import InteractiveComponent
-import utilities
+from src.game_objects.scene_objects.scene_object import SceneObject
+from src.components.interactive_component import InteractiveComponent
+import src.utilities as utilities
 
 HAPPY_COCO_PATH = 'resources/coconut_cages/happy_coco.png'
 CAGE = 'cage'

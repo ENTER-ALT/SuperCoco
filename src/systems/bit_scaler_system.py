@@ -1,4 +1,4 @@
-import utilities
+import src.utilities as utilities
 
 TOLERANCE = 0.20
 

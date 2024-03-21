@@ -1,7 +1,7 @@
-import utilities
-from components.health_component import HealthComponent
-from components.knock_out_component import KnockOutComponent
-import sound_mixer as sounds
+import src.utilities as utilities
+from src.components.health_component import HealthComponent
+from src.components.knock_out_component import KnockOutComponent
+import src.sound_mixer as sounds
 
 class AttackCollisionSystem:
     def __init__(self, created_objects: utilities.level_objects) -> None:

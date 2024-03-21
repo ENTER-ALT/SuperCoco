@@ -1,4 +1,4 @@
-from components.interactive_component import InteractiveComponent
+from src.components.interactive_component import InteractiveComponent
 
 class WinConditionChecker:
     def __init__(self, cages, game_progress) -> None:

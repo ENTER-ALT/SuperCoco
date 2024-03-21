@@ -1,7 +1,7 @@
-import pygame, game, game_objects.player as player
-import sound_mixer as sounds
+import pygame, src.game, src.game_objects.player as player
+import src.sound_mixer as sounds
 
-def check_input(game: game.Game, player: player.Player, sound_mixer: sounds.SoundMixer) -> None:
+def check_input(game: src.game.Game, player: player.Player, sound_mixer: sounds.SoundMixer) -> None:
     
     key = pygame.key.get_pressed()
     if game.state == game.mode.playing:

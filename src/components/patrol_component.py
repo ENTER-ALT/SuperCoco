@@ -1,4 +1,4 @@
-from utilities import TIME_COUNTING_SPEED
+from src.utilities import TIME_COUNTING_SPEED
 
 class PatrolComponent:
     def __init__(self, switch_direction_delay) -> None:

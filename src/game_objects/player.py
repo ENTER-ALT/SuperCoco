@@ -1,10 +1,10 @@
 import pygame
-import utilities
-from components.character_animator import  CharacterAnimator
-from components.interact_component import InteractComponent
-from components.knock_out_component import KnockOutComponent
-from components.health_component import HealthComponent
-import levels.settings as settings
+import src.utilities as utilities
+from src.components.character_animator import  CharacterAnimator
+from src.components.interact_component import InteractComponent
+from src.components.knock_out_component import KnockOutComponent
+from src.components.health_component import HealthComponent
+import src.levels.settings as settings
 
 class Player(pygame.sprite.Sprite, CharacterAnimator, InteractComponent, HealthComponent, KnockOutComponent):
     def __init__(self) -> None:

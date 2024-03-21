@@ -1,6 +1,6 @@
 import pygame
 
-from components.shift_component import ShiftComponent
+from src.components.shift_component import ShiftComponent
 
 
 class SceneObject(pygame.sprite.Sprite, ShiftComponent):

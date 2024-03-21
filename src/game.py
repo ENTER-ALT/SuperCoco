@@ -1,5 +1,5 @@
-import pygame, utilities
-import levels.settings as settings
+import pygame, src.utilities as utilities
+import src.levels.settings as settings
 
 class Game:
     def __init__(self, width=settings.screen_width, height=settings.screen_height) -> None:

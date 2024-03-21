@@ -1,5 +1,5 @@
-from components.patrol_component import PatrolComponent
-from game_objects.enemy import Enemy
+from src.components.patrol_component import PatrolComponent
+from src.game_objects.enemy import Enemy
 
 class PatrolSystem:
     def update(self, enemy):
