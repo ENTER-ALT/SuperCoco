@@ -3,6 +3,10 @@ The project from UCLL game jam from my team.
 The goal: to learn python. 
 My part was scripting the biggest part of the code.
 
+TechStack used:
+- Pygame,
+- Python
+
 The game was done in 3 days:
 - learning pygame and its workflow
 - designing images 
